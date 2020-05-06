@@ -1,9 +1,8 @@
-.row {
-    width: 100%;
+body{
+    background-image: url(https://lh3.googleusercontent.com/proxy/l-CUQmHsshv_AbXqyOF6ZwmC9WFGXRfPgyETOuewP-ueFKAKSP6-CEIAWVYBdqwLT0RB16qEWdsj7DF1i-JeeY7Rv_HJsnClzQ);
 }
-
 .container-header {
-    background-color: black;
+    /* background-color: black; */
     height: 140px;
 }
 
@@ -22,12 +21,12 @@ a {
 }
 
 .container-content {
-    background-color: black;
+    /* background-color: black; */
     opacity: 75%;
 }
 
 h5 {
-    background-color: darkgray;
+    background-color: rgba(169, 169, 169, 0.747);
     height: 0px;
     text-align: center;
     color: rgb(8, 8, 8);
@@ -45,12 +44,15 @@ h5 {
 }
 
 img {
-    max-width: 400px;
+    max-width:200px;
 }
 
 h1 {
     color: darkgray;
     text-align: center;
+    background-color: rgba(3, 3, 3, 0.397);
+    padding: 20px;
+    width: 100%;
 }
 
 h2 {
@@ -62,7 +64,10 @@ h2 {
 
 .container-card-body {
     width: max-content;
-    border: solid 10px darkslateblue;
+    border: solid 10px rgba(9, 53, 38, 0.747);
+    margin: auto;
+    margin-bottom: 20px;
+   
 }
 
 .card-title {
@@ -73,12 +78,20 @@ h2 {
 @media (max-width: 640px) {
     body {
         width: max-content;
-        margin-left: 30px;
+        margin-left: 0px;
     }
     h1 {
         width: 100%;
     }
     .nav {
         margin-right: 90px;
+    }
+
+    .container-card-body {
+        width: max-content;
+        border: solid 10px darkslateblue;
+        margin: auto;
+        margin-bottom: 10px;
+       
     }
 }
