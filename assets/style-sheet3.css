@@ -1,0 +1,84 @@
+.row {
+    width: 100%;
+}
+
+.container-header {
+    background-color: black;
+    height: 140px;
+}
+
+a {
+    color: darkgrey;
+    margin-bottom: 20px;
+}
+
+.nav {
+    float: right
+}
+
+.navbar-brand {
+    padding: 0%;
+    margin-left: 80px;
+}
+
+.container-content {
+    background-color: black;
+    opacity: 75%;
+}
+
+h5 {
+    background-color: darkgray;
+    height: 0px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+.card-deck {
+    max-width: 300px;
+    width: auto;
+}
+
+#card {
+    margin: 50px;
+}
+
+img {
+    max-width: 400px;
+}
+
+h1 {
+    color: darkgray;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 600;
+    margin-left: 20px;
+    color: darkgray;
+    text-align: center;
+}
+
+.container-card-body {
+    width: max-content;
+    border: solid 10px darkslateblue;
+}
+
+.card-title {
+    margin: 0;
+    padding: auto;
+}
+
+@media (max-width: 640px) {
+    body {
+        width: max-content;
+        margin-left: 30px;
+    }
+    h1 {
+        width: 100%;
+    }
+    .nav {
+        margin-right: 90px;
+    }
+}
