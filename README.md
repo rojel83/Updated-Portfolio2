@@ -10,3 +10,6 @@ In this project I had built a full-stack web application and have another projec
 * Updated resume
 
 * Updated LinkedIn profile
+
+
+![Alt](/assets/images/16portfolio.PNG)
