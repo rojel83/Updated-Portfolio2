@@ -1,7 +1,7 @@
 /* index.html main */
 
 .nav {
-    float: right
+    justify-content: center;
 }
 
 a {
