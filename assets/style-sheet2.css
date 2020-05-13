@@ -14,17 +14,21 @@ a {
     opacity: 75%;
     font-weight: bold;
     font-size: 20px;
+    margin-left: 100px;
 }
 
 body {
-    background-image: url(https://lh3.googleusercontent.com/proxy/l-CUQmHsshv_AbXqyOF6ZwmC9WFGXRfPgyETOuewP-ueFKAKSP6-CEIAWVYBdqwLT0RB16qEWdsj7DF1i-JeeY7Rv_HJsnClzQ);
+    background-image: url(https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/twelve-hotel-residence/media/Twelve-downtown-hero-mobile-5bfd70e7007fd.jpg);
     height: 1000px;
     overflow: auto;
+    padding: 60px;
 }
 
 #pic {
-    max-width: 400px;
+    max-width: 200px;
     float: left;
+    background-color: black;
+    
 }
 
 p {
@@ -53,14 +57,18 @@ p {
 }
 
 @media (max-width: 640px) {
+
+    #pic {
+        max-width: 300px;
+    
+        
+    }
+    
+
     .navbar {
         padding: 0;
     }
-    #pic {
-        width: auto;
-        height: auto;
-        margin: 20px;
-    }
+    
     .navbar-brand {
         flex: 100%;
         text-align: center;
@@ -71,4 +79,15 @@ p {
     h1 {
         width: 100%;
     }
+    .container-content {
+        background-color: black;
+        opacity: 75%;
+        font-weight: bold;
+        font-size: 10px;
+        margin-left: 0px;
+        margin-top: 20px;
+}
+body{
+    padding: 20px;
+}
 }

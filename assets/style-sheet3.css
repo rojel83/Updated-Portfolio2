@@ -1,8 +1,10 @@
 body{
-    background-image: url(https://lh3.googleusercontent.com/proxy/l-CUQmHsshv_AbXqyOF6ZwmC9WFGXRfPgyETOuewP-ueFKAKSP6-CEIAWVYBdqwLT0RB16qEWdsj7DF1i-JeeY7Rv_HJsnClzQ);
+    border: black;
+    height: 100%;
+    background-color: black;
 }
 .container-header {
-    /* background-color: black; */
+    
     height: 140px;
 }
 
@@ -12,7 +14,7 @@ a {
 }
 
 .nav {
-    float: right
+ justify-content: center;
 }
 
 .navbar-brand {
@@ -40,7 +42,7 @@ h5 {
 }
 
 #card {
-    margin: 50px;
+    margin: 60px;
 }
 
 img {
@@ -83,15 +85,12 @@ h2 {
     h1 {
         width: 100%;
     }
-    .nav {
-        margin-right: 90px;
-    }
+    
+    
 
     .container-card-body {
         width: max-content;
         border: solid 10px darkslateblue;
-        margin: auto;
-        margin-bottom: 10px;
-       
+        justify-content: center;
     }
 }
