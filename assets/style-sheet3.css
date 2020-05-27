@@ -23,7 +23,6 @@ a {
 }
 
 .container-content {
-    /* background-color: black; */
     opacity: 75%;
 }
 
@@ -46,7 +45,7 @@ h5 {
 }
 
 img {
-    max-width:200px;
+    max-width:800px;
 }
 
 h1 {
