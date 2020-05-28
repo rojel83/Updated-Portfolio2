@@ -13,6 +13,10 @@ a {
     margin-bottom: 20px;
 }
 
+p{
+    color: darkgrey;
+}
+
 .nav {
  justify-content: center;
 }
