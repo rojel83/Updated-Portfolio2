@@ -13,10 +13,6 @@ a {
     margin-bottom: 20px;
 }
 
-p{
-    color: darkgrey;
-}
-
 .nav {
  justify-content: center;
 }
@@ -85,12 +81,11 @@ h2 {
         width: max-content;
         margin-left: 0px;
     }
+
     h1 {
         width: 100%;
     }
     
-    
-
     .container-card-body {
         width: max-content;
         border: solid 10px darkslateblue;
